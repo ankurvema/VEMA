@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92D0A6BD2BDA0C4700218A08 /* VEMAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D0A6BC2BDA0C4700218A08 /* VEMAApp.swift */; };
+		92D0A6BF2BDA0C4700218A08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D0A6BE2BDA0C4700218A08 /* ContentView.swift */; };
+		92D0A6C12BDA0C4800218A08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D0A6C02BDA0C4800218A08 /* Assets.xcassets */; };
+		92D0A6C42BDA0C4800218A08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D0A6C32BDA0C4800218A08 /* Preview Assets.xcassets */; };
+		92D0A6CE2BDA0C4900218A08 /* VEMATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D0A6CD2BDA0C4900218A08 /* VEMATests.swift */; };
+		92D0A6D82BDA0C4900218A08 /* VEMAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D0A6D72BDA0C4900218A08 /* VEMAUITests.swift */; };
+		92D0A6DA2BDA0C4900218A08 /* VEMAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D0A6D92BDA0C4900218A08 /* VEMAUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92D0A6CA2BDA0C4900218A08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92D0A6B12BDA0C4700218A08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92D0A6B82BDA0C4700218A08;
+			remoteInfo = VEMA;
+		};
+		92D0A6D42BDA0C4900218A08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92D0A6B12BDA0C4700218A08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92D0A6B82BDA0C4700218A08;
+			remoteInfo = VEMA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92D0A6B92BDA0C4700218A08 /* VEMA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VEMA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D0A6BC2BDA0C4700218A08 /* VEMAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VEMAApp.swift; sourceTree = "<group>"; };
+		92D0A6BE2BDA0C4700218A08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92D0A6C02BDA0C4800218A08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92D0A6C32BDA0C4800218A08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92D0A6C92BDA0C4900218A08 /* VEMATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VEMATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D0A6CD2BDA0C4900218A08 /* VEMATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VEMATests.swift; sourceTree = "<group>"; };
+		92D0A6D32BDA0C4900218A08 /* VEMAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VEMAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D0A6D72BDA0C4900218A08 /* VEMAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VEMAUITests.swift; sourceTree = "<group>"; };
+		92D0A6D92BDA0C4900218A08 /* VEMAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VEMAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92D0A6B62BDA0C4700218A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D0A6C62BDA0C4900218A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D0A6D02BDA0C4900218A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92D0A6B02BDA0C4700218A08 = {
+			isa = PBXGroup;
+			children = (
+				92D0A6BB2BDA0C4700218A08 /* VEMA */,
+				92D0A6CC2BDA0C4900218A08 /* VEMATests */,
+				92D0A6D62BDA0C4900218A08 /* VEMAUITests */,
+				92D0A6BA2BDA0C4700218A08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92D0A6BA2BDA0C4700218A08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92D0A6B92BDA0C4700218A08 /* VEMA.app */,
+				92D0A6C92BDA0C4900218A08 /* VEMATests.xctest */,
+				92D0A6D32BDA0C4900218A08 /* VEMAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92D0A6BB2BDA0C4700218A08 /* VEMA */ = {
+			isa = PBXGroup;
+			children = (
+				92D0A6BC2BDA0C4700218A08 /* VEMAApp.swift */,
+				92D0A6BE2BDA0C4700218A08 /* ContentView.swift */,
+				92D0A6C02BDA0C4800218A08 /* Assets.xcassets */,
+				92D0A6C22BDA0C4800218A08 /* Preview Content */,
+			);
+			path = VEMA;
+			sourceTree = "<group>";
+		};
+		92D0A6C22BDA0C4800218A08 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				92D0A6C32BDA0C4800218A08 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92D0A6CC2BDA0C4900218A08 /* VEMATests */ = {
+			isa = PBXGroup;
+			children = (
+				92D0A6CD2BDA0C4900218A08 /* VEMATests.swift */,
+			);
+			path = VEMATests;
+			sourceTree = "<group>";
+		};
+		92D0A6D62BDA0C4900218A08 /* VEMAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92D0A6D72BDA0C4900218A08 /* VEMAUITests.swift */,
+				92D0A6D92BDA0C4900218A08 /* VEMAUITestsLaunchTests.swift */,
+			);
+			path = VEMAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92D0A6B82BDA0C4700218A08 /* VEMA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D0A6DD2BDA0C4900218A08 /* Build configuration list for PBXNativeTarget "VEMA" */;
+			buildPhases = (
+				92D0A6B52BDA0C4700218A08 /* Sources */,
+				92D0A6B62BDA0C4700218A08 /* Frameworks */,
+				92D0A6B72BDA0C4700218A08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VEMA;
+			productName = VEMA;
+			productReference = 92D0A6B92BDA0C4700218A08 /* VEMA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92D0A6C82BDA0C4900218A08 /* VEMATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D0A6E02BDA0C4900218A08 /* Build configuration list for PBXNativeTarget "VEMATests" */;
+			buildPhases = (
+				92D0A6C52BDA0C4900218A08 /* Sources */,
+				92D0A6C62BDA0C4900218A08 /* Frameworks */,
+				92D0A6C72BDA0C4900218A08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92D0A6CB2BDA0C4900218A08 /* PBXTargetDependency */,
+			);
+			name = VEMATests;
+			productName = VEMATests;
+			productReference = 92D0A6C92BDA0C4900218A08 /* VEMATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92D0A6D22BDA0C4900218A08 /* VEMAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D0A6E32BDA0C4900218A08 /* Build configuration list for PBXNativeTarget "VEMAUITests" */;
+			buildPhases = (
+				92D0A6CF2BDA0C4900218A08 /* Sources */,
+				92D0A6D02BDA0C4900218A08 /* Frameworks */,
+				92D0A6D12BDA0C4900218A08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92D0A6D52BDA0C4900218A08 /* PBXTargetDependency */,
+			);
+			name = VEMAUITests;
+			productName = VEMAUITests;
+			productReference = 92D0A6D32BDA0C4900218A08 /* VEMAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92D0A6B12BDA0C4700218A08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					92D0A6B82BDA0C4700218A08 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					92D0A6C82BDA0C4900218A08 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 92D0A6B82BDA0C4700218A08;
+					};
+					92D0A6D22BDA0C4900218A08 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 92D0A6B82BDA0C4700218A08;
+					};
+				};
+			};
+			buildConfigurationList = 92D0A6B42BDA0C4700218A08 /* Build configuration list for PBXProject "VEMA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92D0A6B02BDA0C4700218A08;
+			productRefGroup = 92D0A6BA2BDA0C4700218A08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92D0A6B82BDA0C4700218A08 /* VEMA */,
+				92D0A6C82BDA0C4900218A08 /* VEMATests */,
+				92D0A6D22BDA0C4900218A08 /* VEMAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92D0A6B72BDA0C4700218A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D0A6C42BDA0C4800218A08 /* Preview Assets.xcassets in Resources */,
+				92D0A6C12BDA0C4800218A08 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D0A6C72BDA0C4900218A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D0A6D12BDA0C4900218A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92D0A6B52BDA0C4700218A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D0A6BF2BDA0C4700218A08 /* ContentView.swift in Sources */,
+				92D0A6BD2BDA0C4700218A08 /* VEMAApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D0A6C52BDA0C4900218A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D0A6CE2BDA0C4900218A08 /* VEMATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D0A6CF2BDA0C4900218A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D0A6D82BDA0C4900218A08 /* VEMAUITests.swift in Sources */,
+				92D0A6DA2BDA0C4900218A08 /* VEMAUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92D0A6CB2BDA0C4900218A08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92D0A6B82BDA0C4700218A08 /* VEMA */;
+			targetProxy = 92D0A6CA2BDA0C4900218A08 /* PBXContainerItemProxy */;
+		};
+		92D0A6D52BDA0C4900218A08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92D0A6B82BDA0C4700218A08 /* VEMA */;
+			targetProxy = 92D0A6D42BDA0C4900218A08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92D0A6DB2BDA0C4900218A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92D0A6DC2BDA0C4900218A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92D0A6DE2BDA0C4900218A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VEMA/Preview Content\"";
+				DEVELOPMENT_TEAM = DGW48AMEA7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twa.VEMA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92D0A6DF2BDA0C4900218A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VEMA/Preview Content\"";
+				DEVELOPMENT_TEAM = DGW48AMEA7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twa.VEMA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92D0A6E12BDA0C4900218A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DGW48AMEA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twa.VEMATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VEMA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VEMA";
+			};
+			name = Debug;
+		};
+		92D0A6E22BDA0C4900218A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DGW48AMEA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twa.VEMATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VEMA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VEMA";
+			};
+			name = Release;
+		};
+		92D0A6E42BDA0C4900218A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DGW48AMEA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twa.VEMAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VEMA;
+			};
+			name = Debug;
+		};
+		92D0A6E52BDA0C4900218A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DGW48AMEA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twa.VEMAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VEMA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92D0A6B42BDA0C4700218A08 /* Build configuration list for PBXProject "VEMA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D0A6DB2BDA0C4900218A08 /* Debug */,
+				92D0A6DC2BDA0C4900218A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D0A6DD2BDA0C4900218A08 /* Build configuration list for PBXNativeTarget "VEMA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D0A6DE2BDA0C4900218A08 /* Debug */,
+				92D0A6DF2BDA0C4900218A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D0A6E02BDA0C4900218A08 /* Build configuration list for PBXNativeTarget "VEMATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D0A6E12BDA0C4900218A08 /* Debug */,
+				92D0A6E22BDA0C4900218A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D0A6E32BDA0C4900218A08 /* Build configuration list for PBXNativeTarget "VEMAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D0A6E42BDA0C4900218A08 /* Debug */,
+				92D0A6E52BDA0C4900218A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92D0A6B12BDA0C4700218A08 /* Project object */;
+}
