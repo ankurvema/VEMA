@@ -1,0 +1,27 @@
+ apiVersion: v1alpha
+kind: xcuitest
+sauce:
+  region: us-west-1
+  concurrency: 1
+  metadata:
+    tags:
+      - e2e
+      - release team
+      - other tag
+    build: Release $CI_COMMIT_SHORT_SHA
+
+xcuitest:
+  app: ./Users/ankur/Codes/VEMA/sauce-apps/VEMA.app
+  testApp: ./Users/ankur/Codes/VEMA/sauce-apps/VEMAUITests-Runner.app
+
+suites:
+  - name: "Run All Tests"
+    devices:
+      - name: "iPhone.*"
+
+artifacts:
+  download:
+    when: always
+    match:
+      - "junit.xml"
+    directory: ./artifacts/
